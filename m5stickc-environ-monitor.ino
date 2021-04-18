@@ -235,7 +235,7 @@ void loop() {
     pose = POSE_LEFT;
   } else if (near_zero(accX_mpss) && near_m_g(accY_mpss)) {
     pose = POSE_BOTTOM;
-  } else if (near_m_g(accX_mpss) && near_zero(accY_mpss) && near_zero(accZ_mpss)) {
+  } else if (near_m_g(accX_mpss) && near_zero(accY_mpss)) {
     pose = POSE_RIGHT;
   }
 
