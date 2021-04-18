@@ -11,8 +11,8 @@
 #define POSE_LEFT 1   // 左が上
 #define POSE_BOTTOM 2 // 下が上
 #define POSE_RIGHT 3  // 右が上
-uint8_t pose = POSE_TOP;
-uint8_t last_pose = POSE_TOP;
+RTC_DATA_ATTR uint8_t pose;
+RTC_DATA_ATTR uint8_t last_pose;
 
 // 加速度
 float accX_g = 0;
