@@ -22,6 +22,13 @@
 | ------------------------ | ------------------------ |
 | ![](assets/IMG_0159.png) | ![](assets/IMG_0160.png) |
 
+## 利用ライブラリ
+
+Arduino の Library Managerでインストールして利用します。
+
+* [adafruit/Adafruit_BMP280_Library: Arduino Library for BMP280 sensors](https://github.com/adafruit/Adafruit_BMP280_Library)
+* [WifWaf/MH-Z19: For Arduino Boards (&ESP32). Additional Examples/Commands., Hardware/Software Serial](https://github.com/WifWaf/MH-Z19)
+
 ## 参考にしたページ
 
 * LCD
